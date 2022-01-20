@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="/main.css" />
+  </head>
+  <body>
+    <header>
+        <nav>
+            <a class="lien" style="background-color:blue" href="/">Indexer</a><a class="lien" href="/search">Rechercher</a>
+        </nav>
+        <h1>{{ message }}</h1>
+        <form action="/" method="post">
+            <div>
+                <label for="url">URL :</label>
+                <input id="url" name="url" type="url" placeholder="ex:https://boulanger.com/" />
+            </div>
+            <input id="button" type="submit" value="indexer" />
+        </form>
+    </header>
+    <main>
+        <section>
+            <h2>Pages indexées</h2>
+            <article>
+                <b>{{pageIndex}}</b>
+            </article>
+        </section>
+    </main>
+  </body>
+</html>

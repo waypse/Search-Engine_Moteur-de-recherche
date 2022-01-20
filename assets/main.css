@@ -1,0 +1,82 @@
+body{
+    font-family: roboto;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(70, 70, 70);
+}
+
+header{
+    text-align: center;
+}
+
+hr{
+    margin-bottom: 40px;
+}
+
+h1{
+    margin-top:100px;
+    margin-bottom: 50px;
+    color: white;
+}
+h2{
+    color: white;
+}
+label {
+    color: white;
+}
+nav{
+    margin-top: 50px;
+}
+
+.lien {
+    background-color: gray;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border-radius: 3px;
+    transition: .3s ease;
+}
+
+#url
+{
+    width: 400px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+#button {
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 100px;
+}
+
+.lien:hover {
+    background-color: red;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+article{
+    border-radius: 5px;
+    border: solid black 4px;
+    height: 300px;
+    width: 500px;
+    overflow:scroll;
+    background-color:white;
+}
